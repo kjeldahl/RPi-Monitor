@@ -109,6 +109,7 @@ dynamic.<dynamic data id>.rrd=<GAUGE|COUNTER|DERIVE|ABSOLUTE|COMPUTE>
   parameter is defined as empty, no RRD database will be created. If
   this parameter is defined, a RRD database will be created and data
   will be stored at every extraction.
+  Note: If this parameter is defined the ``name``parameter cannot exceed 19 chars.
   Ref `RRDTool documentation <http://oss.oetiker.ch/rrdtool/doc/rrdcreate.en.html>`_ 
   for RRD parameter description.
 
